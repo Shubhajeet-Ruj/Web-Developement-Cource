@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter your password" required><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" placeholder="Confirm your password" required><br>
+
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" placeholder="Enter your birthdate" required><br>
+
+        <h2>Gender</h2>
+        <input type="radio" name="gender" value="male" required>Male<br>
+        <input type="radio" name="gender" value="female" required>Female<br>
+    
+        <h2>Skills</h2>
+        <input type="checkbox" name="HTML" value="HTML" required>HTML<br>
+        <input type="checkbox" name="CSS" value="CSS" required>CSS<br>
+        <input type="checkbox" name="JavaScript" value="JavaScript" required>JavaScript<br>
+
+        <h3>Country</h3>
+        <select name="country" required>
+        <option value="Select">Select</option>
+        <option value="INDIA">INDIA</option>    
+        <option value="USA">USA</option>
+        </select><br>
+
+        <h3>About You</h3>
+        <textarea name="about" placeholder="Tell us about yourself"></textarea><br>
+
+        <button id="registerBtn">Register</button><br>
+    </form>
+</body>
+</html>
