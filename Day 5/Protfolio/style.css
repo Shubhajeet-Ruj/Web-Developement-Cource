@@ -1,0 +1,29 @@
+form{
+    background-color: rgb(199, 199, 199);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+h1{
+    text-align: center;
+    color: rgb(24, 22, 22);
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: rgb(206, 42, 42);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    
+}
+button:hover{
+    background-color:rgb(170, 30, 30)
+   
+}
+a{
+    text-decoration: none;
+}

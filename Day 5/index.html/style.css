@@ -1,0 +1,28 @@
+body{
+    background-color: lightgrey;
+
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-family: arial;
+
+}
+form{
+    border: 3px  dashed black;
+    padding: 20px;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+}
+p1{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+p{
+    
+}
