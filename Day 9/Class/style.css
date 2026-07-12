@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(116, 240, 240);
+    border: 3px solid rgb(9, 121, 141);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.section-a{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+}
